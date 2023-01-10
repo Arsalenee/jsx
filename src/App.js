@@ -6,9 +6,10 @@ import ProfilePhoto from './Component/Profile/ProfilePhoto';
 import FullName from './Component/Profile/FullName';
 import Address from './Component/Profile/Address';
 
+
 function App() {
   return (
-    <div>
+    <div className='myapp'>
       <ProfilePhoto />
       <FullName name="Your Full Name" />
       <Address address="Your Address" />

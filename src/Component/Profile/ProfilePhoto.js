@@ -1,8 +1,10 @@
 import React from 'react';
+import img from './arsa.jpg'
+
 
 const ProfilePhoto = () => {
   return (
-    <img src="/public/arsa.jpg" alt="Profile Photo" />
+    <img className='photo' src={img} alt="Profile Photo" />
   );
 }
 
